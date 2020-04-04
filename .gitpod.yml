@@ -1,0 +1,5 @@
+tasks:
+  - init: npm install
+    command: composer install; npm run dev
+image:
+  file: .gitpod.Dockerfile
