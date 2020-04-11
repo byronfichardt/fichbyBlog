@@ -1,1 +1,15 @@
-//
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+code{
+    background-color: #666 !important;
+    color: white !important;
+    border-radius: 2px !important;
+    padding: 8 !important;
+}

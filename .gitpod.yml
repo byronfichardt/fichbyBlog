@@ -1,5 +1,9 @@
 tasks:
   - init: npm install
-    command: composer install; npm run dev
+    command: composer install
+    command: npm run dev
+    command: cp .env.example .env
+    command: php artisan key:generate
+    command: php artisan migrate
 image:
   file: .gitpod.Dockerfile
